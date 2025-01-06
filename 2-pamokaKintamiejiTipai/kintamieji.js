@@ -7,15 +7,15 @@ let amzius = 26;
 
 console.log('Kestutis' + ' ' + 'Mano amzius: ' + amzius);
 
-amzius = 27;
+amzius = 54;
 
 console.log('Kestutis' + ' ' + 'Mano amzius: ' + amzius);
 
 // 2. const - kintamasis, kurio reiksmes keisti negalima.
-const vardas = 'Urbonas';
+const vardas = 'Rokas';
 
 // Negalima redeklaruoti konstantos reiksmes!
-// vardas = 'Petras'
+// vardas = 'Rokas';
 
 console.log('Mano vardas: ' + vardas);
 
@@ -23,4 +23,8 @@ console.log('Mano vardas: ' + vardas);
 var pavarde = 'Petraitis';
 
 pavarde = 'Jonaitis';
-console.log('Mano pavarde');
+
+console.log('Mano pavarde:' + pavarde);
+
+// Patikrina duomenu tipa
+console.log(typeof vardas);

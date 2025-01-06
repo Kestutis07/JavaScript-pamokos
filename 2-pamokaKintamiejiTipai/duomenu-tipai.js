@@ -4,10 +4,11 @@ let x = 42;
 let y = 3.14;
 
 // String
-// Naudojamas tekstuui reprezentuoti. Apibreziamas naudojant viengubas arba dvigubas kabutes arba backticks.
-let vardas = 'Jonaitis';
+// Naudojamas tekstui reprezentuoti. Apibreziamas naudojant viengubas arba dvigubas kabutes arba backticks.
+let vardas = 'Jonas';
 let pavarde = 'Jonaitis';
-let vardasPavarde = `${varda} ${pavarde}`;
+// tas pats parasymas naudojant backticks.
+let vardasPavarde = `${vardas} ${pavarde}`;
 
 // Boolean
 // Loginis duoenu tipas, kuris gali buti true arba false.
